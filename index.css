@@ -2,6 +2,11 @@
 
 /* font-family: 'Big Shoulders Text', cursive; */
 
+/* c8a47a*/
+/* a5845c*/
+/*font 591b1b dark maroon */
+/* glacial indifference font */
+
 .nav-flex-row {
     display: flex;
     flex-direction: row;
@@ -21,7 +26,7 @@
 
 .nav-flex-row li a {
     font-family: 'Big Shoulders Text', cursive;
-    color: #ffffff;
+    color: #a5845c;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 300;
@@ -29,7 +34,9 @@
 
 .section-intro {
     height: 820px;
-    background-image: url(img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
+    /*background-image: url(img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);*/
+    background-image: url(img/choc_chip_closeup.jpg);
+    
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -39,8 +46,8 @@
 
 .section-intro h1 {
     text-align: center;
-    color: #ffffff;
-    font-size: 4em;
+    color: #591b1b;
+    font-size: 5em;
     font-weight: 700;
 }
 
