@@ -3,7 +3,7 @@
 /* font-family: 'Big Shoulders Text', cursive; */
 
 /* c8a47a*/
-/* a5845c*/
+/* a5845c light tan*/
 /*font 591b1b dark maroon */
 /* glacial indifference font */
 
@@ -27,9 +27,10 @@
 .nav-flex-row li a {
     font-family: 'Big Shoulders Text', cursive;
     color: #a5845c;
-    font-size: 1.5em;
+    background-color: beige;
+    font-size: 2em;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .section-intro {
@@ -67,6 +68,7 @@
     display: flex;
     align-items: center;
     background-color: #f3f3f3c0;
+    color: #c8a47a;
     padding: 50px 30px;
 }
 
