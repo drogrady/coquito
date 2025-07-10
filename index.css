@@ -17,7 +17,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
+    position: absolute; 
     z-index: 100;
     left: 0;
     width: 100%;
@@ -102,7 +102,7 @@ a.link-to-book:hover {
 }
 
 .carousel-inner {
-    height: 700px;
+  height: auto;
 }
 
 .row-flex {
