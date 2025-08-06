@@ -139,7 +139,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 */
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 576px) {
 
     .nav-flex-row li a {
     font-family: 'Big Shoulders Text', cursive;
@@ -148,10 +148,18 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
     background-color: beige;
     text-decoration: underline;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 5px;
+}
+
+
     .section-intro {
         height: 300px;
     }
