@@ -47,8 +47,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     /*display: flex;
     
     */
-    flex-direction: column;
-    
+    flex-direction: column; 
     display:flex;
     align-items: center;  
 }
@@ -153,8 +152,11 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 
     .section-intro {
-        height: 300px;
+        height: 400px;
+        background-size: 100%;
     }
+
+    
 
     .about-section {
         padding: 30px;
