@@ -39,7 +39,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 .section-intro {
     
-    background-image: url(img/logo_over_cookies.png);
+    background-image: url(img/UpdatedC&C_logo_20250806.jpg);
     background-position: center center;
     background-size: 75%;
     background-repeat: no-repeat;
@@ -134,9 +134,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
     .nav-flex-row li a {
     font-family: 'Big Shoulders Text', cursive;
-    
     color: #a5845c;
-
     background-color: beige;
     text-decoration: underline;
     font-size: 1.2em;
@@ -175,25 +173,6 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
         height: auto;
     }
 
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row-flex h3 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .form-group p {
-        font-size: 15px;
-    }
-
-    .opening-time p span,
-    .contact-adress p span {
-        font-size: 15px;
-        text-align: center;
-    }
 
 }
     

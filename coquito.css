@@ -98,9 +98,30 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 }
 
 @media screen and (max-width: 576px) {
+
+    .nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #a5845c;
+    background-color: beige;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 5px;
+}
+
+
     .section-intro {
-        height: 300px;
+        height: 400px;
+        background-size: 100%;
     }
+
+    
 
     .about-section {
         padding: 30px;
@@ -119,24 +140,5 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
         height: auto;
     }
 
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row-flex h3 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .form-group p {
-        font-size: 15px;
-    }
-
-    .opening-time p span,
-    .contact-adress p span {
-        font-size: 15px;
-        text-align: center;
-    }
 
 }
