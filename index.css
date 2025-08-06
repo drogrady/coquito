@@ -62,8 +62,8 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 
 .about-section {
-    display: flex;
-    align-items: center;
+    
+    align-items: left;
     background-color: #f3f3f3c0;
     color: #c8a47a;
     padding: 50px 30px;
@@ -71,15 +71,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 
 
-.about-section p,
-.about-section h3 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    font-family: 'Big Shoulders Text', cursive;
-    font-size: 1.8em;
-    text-transform: uppercase;
-}
+
 
 .carousel-inner {
   height: auto;
