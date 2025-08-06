@@ -114,6 +114,8 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     display: block;
 }
 
+
+/*
 @media (min-width:577px) and (max-width: 800px) {
 
     .section-intro {
@@ -134,7 +136,9 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
         flex-direction: column;
     }
 }
+*/
 
+/*
 @media screen and (max-width: 576px) {
     .section-intro {
         height: 300px;
@@ -178,3 +182,4 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     }
 
 }
+    */
