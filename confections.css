@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+/* c8a47a*/
+/* a5845c light tan*/
+/*font 591b1b dark maroon */
+/* glacial indifference font */
+/* 
+https://codepen.io/rajrs/pen/dMowNx  use modal on page load
+Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+*/
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute; 
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #a5845c;
+    background-color: beige;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-intro {
+    
+    background-image: url(img/20241215_203859.jpg);
+    background-position: center center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    /*display: flex;
+    
+    */
+    flex-direction: column;
+    
+    display:flex;
+    align-items: center;  
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #591b1b;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #f3f3f3c0;
+    color: #c8a47a;
+    padding: 50px 30px;
+}
+
+
+
+
+
+
+
+@media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 500px;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #a5845c;
+    background-color: beige;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 5px;
+}
+
+
+    .section-intro {
+        height: 400px;
+        background-size: 100%;
+    }
+
+    
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .section-intro h1 {
+        font-size: 2em;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+
+}
