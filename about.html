@@ -8,28 +8,36 @@
     <link rel="stylesheet" href="index.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Used for the  hamburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>About</title>
   </head>
+
   <body>
     
     
-<nav>
-    <ul class="nav-flex-row">
-      <li class="nav-item">
-        <a href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="confections.html">Confections</a>
-      </li>
-      <li class="nav-item">
-        <a href="coquito.html">Coquito</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html">About</a>
-      </li>
-    </ul>
-  </nav>
+ <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="confections.html">Confections</a>
+    <a href="coquito.html">Coquito</a>
+    <a href="about.html"class="active">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
   <section class="section-intro">
     <header>
@@ -41,22 +49,7 @@
   </section>
 
   <section class="about-section">
-    <article>
-      <h3>
-          Section for the text why your restaurant is the best.
-      </h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        A quos, voluptatum illum mollitia dolores libero placeat 
-        nesciunt quasi adipisci impedit!Lorem ipsum dolor sit, 
-        amet consectetur adipisicing elit. 
-        A quos, voluptatum illum mollitia dolores libero placeat 
-        nesciunt quasi adipisci impedit!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        A quos, voluptatum illum mollitia dolores libero placeat 
-        nesciunt quasi adipisci impedit!Lorem ipsum dolor sit.
-      </p>
-    </article>
+
   </section>
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -82,45 +75,7 @@
   </div>
 
   <div class="container">
-    <div class="row-flex">
-      <div class="flex-column-form">
-        <h3>
-          Make a booking
-        </h3>
-      <form class="media-centered">
-          <div class="form-group">
-            <p>
-              Please leave your number we will call to make a reservation
-            </p>
-            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name">
-          </div>
-          <div class="form-group">
-            <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      </div>
-      <div class="opening-time">
-        <h3>
-          Opening times
-        </h3>
-        <p>
-         <span>Monday—Thursday: 08:00 — 22:00</span> 
-         <span>Friday—Saturday: 09:00 — 23:00 </span>
-         <span>Sunday: 10:00 — 17:00</span>
-        </p>
-      </div>
-      <div class="contact-adress">
-        <h3>
-          Contact
-        </h3>
-        <p>
-          <span>000 9283 8456</span>
-          <span>15 Florida Ave</span>
-          <span>Palo-Alto, 1111 CA</span>
-        </p>
-      </div>
-    </div>
+    
     </div>
 
 

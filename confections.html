@@ -1,107 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="confections.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Confections</title>
-<style>
-  .conf_menu{
-    width: 90%;
-    align-items: center;
-  }
-</style>
-    
-  </head>
- 
-  <body>   
- <nav>
-    <ul class="nav-flex-row">
-      <li class="nav-item">
-        <a href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="confections.html">Confections</a>
-      </li>
-      <li class="nav-item">
-        <a href="coquito.html">Coquito</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html">About</a>
-      </li>
-    </ul>
-  </nav>
+  <link rel="stylesheet" href="index.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Used for the  hamburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Confections</title>
+  <style>
+    .conf_menu {
+      width: 90%;
+      align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="confections.html" class="active">Confections</a>
+    <a href="coquito.html">Coquito</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
   <section class="section-intro">
     <header>
       <h1>Confections</h1>
     </header>
-  
+
   </section>
 
   <section class="items-section">
-  
-   <hr>
-    <img src = "img/cookies_menu.png" class = "conf_menu">
 
-   
+    <hr>
+    <img src="img/cookies_menu.png" class="conf_menu">
+
+
     <br>
     <hr>
 
 
-  <img src = "img/bars_menu.png" class = "conf_menu">
+    <img src="img/bars_menu.png" class="conf_menu">
 
-  
-      
+
+
     </ul>
     </div>
 
-<h1>Special</h1>
+    <h1>Special</h1>
     <div>
-    <ul>
-      <li>Platters</li>
-      <li>Gift Boxes</li>
-    </ul>
+      <ul>
+        <li>Platters</li>
+        <li>Gift Boxes</li>
+      </ul>
     </div>
 
-    <img src = "img/cookie_tray.jpg" width = "200" height = "auto">
+    <img src="img/cookie_tray.jpg" width="200" height="auto">
 
-  
+
   </section>
 
-<hr>
+  <hr>
 
- <section class="about-section">
-   
-   <h3>Have Questions? Want to Place an Order?</h3>
-        <p>
-         <span>Instagram: <a href="https://www.instagram.com/coquito_confections/">Coquito_Confections</a></span> 
-          <br>
-         <span>Facebook: <a href = "https://www.facebook.com/CoquitoConfections/">Coquito & Confections </a></span>
-         <br> 
-         <span>Email: 
-  <a href="mailto:CoquitoAndConfections@gmail.com">CoquitoAndConfections@gmail.com</a>
-</span>
-        </p>
-    
+  <section class="about-section">
+
+    <h3>Have Questions? Want to Place an Order?</h3>
+    <p>
+      <span>Instagram: <a href="https://www.instagram.com/coquito_confections/">Coquito_Confections</a></span>
+      <br>
+      <span>Facebook: <a href="https://www.facebook.com/CoquitoConfections/">Coquito & Confections </a></span>
+      <br>
+      <span>Email:
+        <a href="mailto:CoquitoAndConfections@gmail.com">CoquitoAndConfections@gmail.com</a>
+      </span>
+    </p>
+
   </section>
-<hr>
+  <hr>
 
- 
+
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- 
-  </body>
-  
-</html> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
