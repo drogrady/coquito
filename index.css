@@ -79,20 +79,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 
 
-.section-intro {
-    
-    background-image: url(img/UpdatedC&C_logo_20250806.jpg);
-    background-position: center center;
-    background-size: 75%;
-    background-repeat: no-repeat;
-    height: 1000px;
-    /*display: flex;
-    
-    */
-    flex-direction: column; 
-    display:flex;
-    align-items: center;  
-}
+
 
 .section-intro h1 {
     text-align: center;
