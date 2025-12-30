@@ -6,6 +6,12 @@
 /* a5845c light tan*/
 /*font 591b1b dark maroon */
 /* glacial indifference font */
+
+/*newer colors */
+/* bea383 background -  beige */
+/* 5a1d1c fonts - red brown */
+
+
 /* 
 https://codepen.io/rajrs/pen/dMowNx  use modal on page load
 Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
@@ -13,7 +19,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 /* Add a black background color to the top navigation */
     .topnav {
-      background-color: #591b1b;
+      background-color: #5a1d1c;
       overflow: hidden;
     }
 
@@ -30,13 +36,13 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
     /* Change the color of links on hover */
     .topnav a:hover {
-      background-color: #c8a47a;
+      background-color: #bea383;
       color: black;
     }
 
     /* Add an active class to highlight the current page */
     .topnav a.active {
-      background-color: #c8a47a;
+      background-color: #bea383;
       color: white;
     }
 
