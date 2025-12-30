@@ -16,7 +16,10 @@
 https://codepen.io/rajrs/pen/dMowNx  use modal on page load
 Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 */
-
+body{
+      background-color: #bea383;
+      color:#5a1d1c;
+    }
   
 /* Add a black background color to the top navigation */
     .topnav {
