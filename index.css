@@ -111,10 +111,6 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
 
 
 
-.carousel-inner {
-  height: auto;
-}
-
 .row-flex {
     display: flex;
     flex-direction: row;
@@ -153,6 +149,8 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     }
 }
 */
+
+
 @media screen and (min-width: 576px) {
  .main_logo{
       width: 30%;
@@ -162,11 +160,13 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     width:30%;
   }
 
-    .carousel-inner {
-        height: auto;
-        width: auto;
+    .carousel-inner{
        
+        width: 500px;
+        
     }
+
+   
   }
 
 @media screen and (max-width: 576px) {
@@ -192,9 +192,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
         font-size: 15px;
     }
 
-    .carousel-inner {
-        height: auto;
-    }
+   
 
 
 }
