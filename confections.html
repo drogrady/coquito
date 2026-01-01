@@ -16,78 +16,198 @@
 
   <title>Confections</title>
   <style>
-    .items_menu {
-      width: 90%;
-      align-items: center;
-    }
+    /*newer colors */
+    /* bea383 background -  beige */
+    /* 5a1d1c fonts - red brown */
 
-     body{
+
+    @media screen and (max-width: 576px) {}
+
+    body {
       background-color: #bea383;
-      color:#5a1d1c;
+      color: #5a1d1c;
     }
 
-      img {
+    img {
       display: block;
       margin: auto;
       width: 50%;
     }
 
-    hr{
+    hr {
       border: 1px solid grey;
+    }
+
+    table {
+      table-layout: fixed;
+      width: 100%;
+
+    }
+
+    td {
+      border-style: double;
+      text-align: center;
+      font-style: italic;
+      border-color: #a0896e;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h6 {
+      text-align: center;
     }
   </style>
 
 </head>
 
-  <div class="topnav" id="myTopnav">
-    <a href="index.html">Home</a>
-    <a href="cookies.html">Cookies</a>
-    <a href="confections.html" class="active">Confections</a>
-    <a href="coquito.html">Coquito</a>
-    <a href="about.html">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="cookies.html">Cookies</a>
+  <a href="confections.html" class="active">Confections</a>
+  <a href="coquito.html">Coquito</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-  <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-  </script>
+  }
+</script>
 
 
 <img src="img/new_CCC_Logo.png">
 
-  <hr>
-  <section class="section-intro">
+<hr>
 
-  
-   <!-- <a href = "cookies1.html"> <img src="img/5cookies.jpg" class="items_menu"></a>
-   -->
-    <hr>
-    <img src="img/bars_assortment.jpg" class="items_menu">
-    <hr>
-    <img src="img/pupcakes.jpg" class="items_menu">
+<h1>Brownies, Blondies, & Squares</h1>
 
-  </section>
+<h6>Small Box 1/2 Dozen $20</h6>
+<h6>Large Box 1 Dozen $36</h6>
+<h6>Mix & Match 2 Flavors Add $4</h6>
+<table>
 
-  <section class="items-section">
+  </tr>
+  <tr>
+    <td>Almond</td>
+    <td>Apple Spice</td>
+    <td>Banana Chocolate Chip</td>
+  </tr>
+  <tr>
+    <td>Banana Nut</td>
+    <td>Biscoff</td>
+    <td>Brookie</td>
+  </tr>
+  <tr>
+    <td>Butterfinger</td>
+    <td>Buterscotch Chip</td>
+    <td>Candy Cane</td>
+  </tr>
+  <tr>
+    <td>Caramel Chipr</td>
+    <td>Caramel Swirl</td>
+    <td>Chocolate Chip</td>
+  </tr>
+  <tr>
+    <td>Cinnamon Chip</td>
+    <td>Cinnamon Swirl</td>
+    <td>Cookies & Cream</td>
+  </tr>
+  <tr>
+    <td>Cookie Butter</td>
+    <td>Espresso</td>
+    <td>Hazelnut</td>
+
+  </tr>
+  <tr>
+    <td>Heath Bar</td>
+    <td>M&M</td>
+    <td>Maple</td>
+
+  </tr>
+  <tr>
+    <td>Nutella</td>
+    <td>Nutter Butter</td>
+    <td>Original</td>
+
+  </tr>
+  <tr>
+    <td>Peanut Butter Cup</td>
+    <td>Peanut Butter Swirl</td>
+    <td>Peanut Butter M&M</td>
+
+  </tr>
+  <tr>
+    <td>Peanut M&M</td>
+    <td>Peppermint</td>
+    <td>Pistachio</td>
+
+  </tr>
+  <tr>
+    <td>Pumpkin</td>
+    <td>Reese's Pieces</td>
+    <td>Roasted Peanut</td>
+
+  </tr>
+  <tr>
+    <td>Snickerdoodle</td>
+    <td>Toasted Coconut</td>
+    <td>Toffee Chip</td>
+
+  </tr>
+  <tr>
+    <td>Turtle</td>
+    <td>Walnut</td>
+    <td>White Chocolate Chip </td>
+    
+
+  </tr>
+</table>
+<br>
+
+<h1>Cereal Treats</h1>
+
+<h6>Small Box 1/2 Dozen $20</h6>
+<h6>Large Box 1 Dozen $36</h6>
+<h6>Mix & Match 2 Flavors Add $4</h6>
+
+<table>
+
+  </tr>
+  <tr>
+    <td>Apple Jack</td>
+    <td>Cap'n Crunch</td>
+    <td>Choc Potato Chip</td>
+  </tr>
+  <tr>
+    <td>Cinn Toast Crunch</td>
+    <td>Cocoa Krispie</td>
+    <td>Froot Loop</td>
+  </tr>
+  <tr>
+    <td>Fruity Pebble</td>
+    <td>Golden Graham</td>
+    <td>PB & Chocolate</td>
+  </tr>
+  <tr>
+    <td>Reese's PB Puff</td>
+    <td>Rice Krispie</td>
+    <td>S'more</td>
+  </tr>
+</table>
 
 
 
-  </section>
-
-  <hr>
-
-
-  <!--
   <section class="about-section">
 
     <h3>Have Questions? Want to Place an Order?</h3>
@@ -103,22 +223,18 @@
 
   </section>
   <hr>
--->
 
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
