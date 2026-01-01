@@ -153,7 +153,11 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
     }
 }
 */
-
+@media screen and (min-width: 576px) {
+ .main_logo{
+      width: 40%;
+    }
+  }
 
 @media screen and (max-width: 576px) {
 
@@ -163,7 +167,7 @@ Modal on button click: https://www.w3schools.com/howto/tryit.asp?filename=tryhow
         background-size: 100%;
     }
 
-    
+   
 
     .about-section {
         padding: 30px;
